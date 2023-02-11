@@ -88,12 +88,6 @@ export const Header = () => {
                                 display: {xs: 'block', md: 'none'},
                             }}
                         >
-                            {/*{pages.map((page) => (*/}
-                            {/*    <MenuItem key={page.title} onClick={handleCloseNavMenu}>*/}
-                            {/*        <Link to={page.link}> <Typography*/}
-                            {/*            textAlign="center">{page.title}</Typography></Link>*/}
-                            {/*    </MenuItem>*/}
-                            {/*))}*/}
                         </Menu>
                     </Box>
                     <AdbIcon sx={{display: {xs: 'flex', md: 'none'}, mr: 1}}/>
